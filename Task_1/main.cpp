@@ -13,7 +13,7 @@ int main() {
     arrayType pi = acos(-1.0);;
 
     std::vector<arrayType> sinValues(N);
-    for (int i = 1; i < N; ++i) {
+    for (int i = 0; i < N; ++i) {
         arrayType angle = 2*pi * i / N;
         sinValues[i] = sin(angle);
     }
